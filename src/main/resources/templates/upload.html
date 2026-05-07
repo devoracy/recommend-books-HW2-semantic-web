@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload RDF/XML</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body data-page-context="upload-rdf">
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/books">Books</a>
+    <a href="/books/add">Add Book</a>
+    <a href="/upload">Upload RDF</a>
+    <a href="/graph">RDF Graph</a>
+</nav>
+
+<main>
+    <h1>Upload RDF/XML File</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data" class="form">
+        <label>Select RDF/XML file</label>
+        <input type="file" name="file" accept=".rdf,.xml" required>
+
+        <button type="submit">Upload and Visualize</button>
+    </form>
+</main>
+
+<script src="/chatbot.js"></script>
+</body>
+</html>
