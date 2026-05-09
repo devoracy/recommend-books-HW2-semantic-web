@@ -1,0 +1,42 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/book-recommendation#">
+  <ex:User rdf:about="http://example.org/book-recommendation#Alice">
+    <ex:name>Alice</ex:name>
+    <ex:hasReadingLevel>Intermediate</ex:hasReadingLevel>
+    <ex:prefersTheme>Science Fiction</ex:prefersTheme>
+  </ex:User>
+  <ex:Book rdf:about="http://example.org/book-recommendation#HungerGames">
+    <ex:title>Hunger Games</ex:title>
+    <ex:author>Suzanne Collins</ex:author>
+    <ex:hasTheme>Science Fiction</ex:hasTheme>
+    <ex:hasTheme>Fantasy</ex:hasTheme>
+    <ex:suitableForLevel>Intermediate</ex:suitableForLevel>
+  </ex:Book>
+  <ex:Book rdf:about="http://example.org/book-recommendation#Dune">
+    <ex:title>Dune</ex:title>
+    <ex:author>Frank Herbert</ex:author>
+    <ex:hasTheme>Science Fiction</ex:hasTheme>
+    <ex:hasTheme>Fantasy</ex:hasTheme>
+    <ex:suitableForLevel>Advanced</ex:suitableForLevel>
+  </ex:Book>
+  <ex:Book rdf:about="http://example.org/book-recommendation#HarryPotter">
+    <ex:hasTheme>Adventure</ex:hasTheme>
+    <ex:hasTheme>Fantasy</ex:hasTheme>
+    <ex:suitableForLevel>Beginner</ex:suitableForLevel>
+    <ex:author>J.K.Rowling</ex:author>
+    <ex:title>Harry Potter</ex:title>
+  </ex:Book>
+  <ex:User rdf:about="http://example.org/book-recommendation#Bob">
+    <ex:name>Bob</ex:name>
+    <ex:hasReadingLevel>Beginner</ex:hasReadingLevel>
+    <ex:prefersTheme>Mystery</ex:prefersTheme>
+  </ex:User>
+  <ex:Book rdf:about="http://example.org/book-recommendation#TheSilentPatient">
+    <ex:title>The Silent Patient</ex:title>
+    <ex:author>Alex Michaelides</ex:author>
+    <ex:hasTheme>Mystery</ex:hasTheme>
+    <ex:hasTheme>Murder</ex:hasTheme>
+    <ex:suitableForLevel>Intermediate</ex:suitableForLevel>
+  </ex:Book>
+</rdf:RDF>
